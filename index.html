@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>TODO LIST</title>
+
+    <style>
+        #inputBox{
+            width:50%
+        }
+
+    </style>
+</head>
+
+<body style="background-image: url('./images/todo.jpg');background-size:cover;"
+
+    class=" font-serif bg-gradient-to-r from-green-200 via-green-300 to-green-400 
+flex 
+flex-col 
+items-center
+gap-5
+p-5">
+    <h1 class="p-5 text-green-600 text-center text-2xl font-extrabold">TODO LIST</h1>
+    <!-- inputbox -->
+    <input type="text" id="inputBox" placeholder="Enter here ... " class="outline-none 
+    rounded 
+    h-8 
+    p-5 
+    bg-green-300">
+    <!-- button -->
+    <button id="btn" class=" bg-green-200 
+    m-5
+    rounded 
+    w-11 
+    h-11
+    animate-pulse
+    ">Add</button>
+
+    <!-- container -->
+    <ol id="container">
+        <!-- <li>Task 1
+            <button onclick="deleteItem(event)" class="bg-green-200 p-1 rounded m-2"> Delete</button>
+        </li> -->
+    </ol>
+</body>
+
+<!-- Connection link for link HTML and JS -->
+<script src="script.js"></script>
+
+</html>
